@@ -1,0 +1,14 @@
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+.edit-btn, .delete-btn {
+  float: right;
+  color:whitesmoke;
+  cursor: pointer;
+  margin: 3px 5px;
+  padding: 3px 5px;
+  background: darkred;
+  border-radius: 20px;
+} 
