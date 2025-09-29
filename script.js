@@ -13,11 +13,15 @@ function addTask() {
     }
     const li = document.createElement("li");
     li.innerHTML=`
-        <div>
-            <input type="checkbox">
-            <span>${task}</span>
-            <button class="delete-btn">Delete</button>
-            <button class="edit-btn">Edit</button>
+        <div class="task">
+            <div>
+                <input type="checkbox">
+                <span>${task}</span>
+            </div>
+            <div>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
         </div>
     `;
     listContainer.appendChild(li);
